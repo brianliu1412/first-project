@@ -1,0 +1,161 @@
+html{
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+.first-body{
+  background-image: url(Media/DSC09611.jpg);
+  height: 100%;
+  background-position: 40% 50%;
+  left: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  padding: 8px;
+  margin: 0px;
+  
+}
+
+.firstheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.first-text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex: 1;
+}
+
+.header-links{
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.second-body{
+  background-image: url(Media/DarkerDuck.png);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+
+
+
+}
+.twotext{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  margin-top: 96px;
+  margin-bottom: 32px;
+
+}
+
+.threeimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 320px;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+
+
+}
+
+.Vlog1, .Vlog2, .Vlog3{
+  max-width: 100%;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  
+
+  
+}
+
+
+.firstbodyimage{
+  width: 500px;
+  height: auto;
+}
+
+
+.third-body{
+  background-image: url(Media/DSC07244.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  flex-shrink: 0;
+}
+
+.headerimg{
+  width:80px;
+  height:80px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+
+.glow {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+  }
+}
