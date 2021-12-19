@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   display: flex;
   flex-direction: column;
   margin: 0px;
@@ -43,6 +43,7 @@ body {
   align-items: center;
   gap: 0px;
   flex: 1;
+  font-size: 40px;
 }
 
 .header-links{
@@ -79,6 +80,8 @@ a {
   flex: 1;
   margin-top: 96px;
   margin-bottom: 32px;
+  font-size: 40px;
+  color: black;
 
 }
 
@@ -119,19 +122,75 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+}
+
+.threetext{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 64px;
+  font-family: Helvetica;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+}
+
+
+.fourth-body{
+  background-image: url(Media/Small-Banner.png);
+  height: 40%;
+  background-position: 50% 52%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 200px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.fourtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+
+  
+
+}
+
+.fifth-body{
+  background-image: url(Media/Fairy\ Lights.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+}
+
+.fivetext{
+  display: flex;
+}
+
+.footertext{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  
 }
 
 .button {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
   flex-shrink: 0;
+  align-self: center;
 }
 
 .headerimg{
@@ -143,7 +202,6 @@ a {
 
 
 .glow {
-  font-size: 32px;
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -153,9 +211,9 @@ a {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    text-shadow: 0 0 10px black, 0 0 20px black;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+    text-shadow: 0 0 20px black, 0 0 30px black;
   }
 }
